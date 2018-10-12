@@ -1,0 +1,184 @@
+/* Color Palette
+#2B2D42 - dark blue
+#8D99AE - light blue
+#EDF2F4 - blue / white
+#EF233C - red
+
+*/
+
+/* Global Styles
+-------------------------*/
+
+html{
+    box-sizing: border-box;
+}     
+
+* ,*:before , *:after{
+    box-sizing: border-box;
+}
+body{
+font-family: 'Open Sans', sans-serif;
+margin: 0;
+
+
+}
+
+h1 , h2 {
+    font-family: 'Caveat Brush', cursive;
+    font-weight: 400;
+}
+h1{
+    font-size: 80px;
+}
+
+h2{
+    margin-top: 0;
+    font-size: 45px;
+}
+
+h3{
+    margin: 0;
+}
+a {
+    color: #EF233C ;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.content-wrapper{
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: hidden;
+
+}
+
+.col-narrow{
+    width: 30%;
+    float: left;
+    width: 250px;
+   
+}
+.col-wide{
+   width: 70%;
+   float: left;
+   padding-left: 20px; 
+   padding: 0;
+
+}
+
+
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.btn{
+    text-decoration: none;
+    background: #EF233C;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+/* Header and Footer
+--------------------------*/
+
+header , footer {
+
+    background-color: #2B2D42;
+    color: #8D99AE;
+}
+/* header */
+
+.profile-img{
+    border-radius: 50%;
+    border: 10px solid #8D99AE ;
+}
+.download{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+    
+}
+header {
+    padding-top: 50px;
+   position: relative;
+    /* overflow: hidden; */
+}
+
+header h1 , header h2 {
+   color: #EDF2F4 ;
+   margin: 0;
+}
+
+/* footer */
+footer{
+    text-align: center;
+}
+footer h2 {
+    font-size: 50px;
+   
+}
+
+.contact-info a{
+    padding: 10px;
+    display: inline-block;
+}
+
+.contact-info a {
+    font-size: 50px;
+    padding: 0 10px;
+}
+
+.content-wrapper .col-wide{
+    padding-left: 10px;
+    
+}
+
+/*Nav styles*/
+nav {
+    text-align: center;
+    background: white;
+    top: 0;
+    position: fixed;
+    width: 100%; 
+
+}
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    
+}
+/* Work Experience
+--------------------------*/
+.work {
+    background-color: #EDF2F4;
+
+}
+h3 ~ p {
+    margin: 0;
+
+}
+ 
+
+/* Education
+--------------------------*/
+
+.education {
+    background-color: #8D99AE;
+    text-align: left;
+   
+}
+
+p + h3 {
+    margin-top: 30px;
+}
+
